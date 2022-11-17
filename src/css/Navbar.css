@@ -37,7 +37,7 @@ nav h1 span{
 }
 
 .menu ul li a{
-    color: white;
+    color: black;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.5px;
@@ -113,6 +113,10 @@ nav h1 span{
         padding: 17px 3rem;
     }
 
+    .menu ul li a{
+        color: white;
+    }
+
     .btn{
         padding-left: 3rem;
         border: none;
@@ -128,4 +132,19 @@ nav h1 span{
     .fa-bars{
         font-size: 1.7rem;
     }
+}
+
+@media screen and (max-width:380px){
+    nav{
+        padding: 0 1rem 0 1rem;
+    }
+
+    nav h1{
+        font-size: 1.5rem;
+    }
+
+    .fa-bars{
+        font-size: 1.5rem;
+    }
+
 }
