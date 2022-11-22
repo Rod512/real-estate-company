@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Services from "./components/Services";
 import Property from "./components/Property";
 import Work from "./components/Work";
+import Accordion from "./components/Accordion";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Property></Property>
     <Services></Services>
     <Work></Work>
+    <Accordion></Accordion>
     
     </>
   );
