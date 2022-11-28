@@ -34,8 +34,7 @@ const Accordion = () => {
                     </div>
 
                     <div className="right">
-                    <img src={pic} alt="person" />
-                        
+                        <img src={pic} alt="person" />
                     </div>
                 </div>
             </section>
