@@ -1,5 +1,6 @@
 import './App.css';
 import Accordion from "./components/Accordion";
+import Agents from './components/Agents';
 import Counter from "./components/Counter";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -19,6 +20,7 @@ function App() {
     <Work></Work>
     <Accordion></Accordion>
     <Counter></Counter>
+    <Agents></Agents>
     </>
   );
 }
